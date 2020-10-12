@@ -1,0 +1,7 @@
+Local Manifests
+===========
+LineageOS
+---------------
+```
+curl -o $(pwd) https://raw.githubusercontent.com/itexpert120/stuff/master/los.sh && chmod +x los.sh
+```
