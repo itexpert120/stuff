@@ -2,6 +2,7 @@ Local Manifests
 ===========
 LineageOS
 ---------------
+use this command in source directory
 ```
-curl -o $(pwd) https://raw.githubusercontent.com/itexpert120/stuff/master/los.sh && chmod +x los.sh
+curl -o los.sh https://raw.githubusercontent.com/itexpert120/stuff/master/los.sh && chmod +x los.sh
 ```
