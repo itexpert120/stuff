@@ -4,5 +4,5 @@ LineageOS
 ---------------
 use this command in source directory
 ```
-curl -o los.sh https://raw.githubusercontent.com/itexpert120/stuff/master/los.sh && chmod +x los.sh
+curl -o los.sh https://raw.githubusercontent.com/itexpert120/stuff/main/los.sh && chmod +x los.sh
 ```
