@@ -14,8 +14,10 @@ use this command in source directory
 curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/stuff/main/roomservice.xml --create-dirs && repo sync -j16 --force-sync
 ```
 
-Build for them
----------------
 ```
 curl -o build.sh https://raw.githubusercontent.com/itexpert120/stuff/main/gprime_j5.sh && chmod +x build.sh
+```
+
+```
+./build.sh
 ```
