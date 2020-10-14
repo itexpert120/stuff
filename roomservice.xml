@@ -45,7 +45,6 @@
   <project path="device/samsung/gprimeltexx" name="itexpert120/android_device_samsung_gprimeltexx" groups="device" remote="itexpert120" revision="lineage-17.1"/>
   <project path="device/samsung/gprimeltezt" name="itexpert120/android_device_samsung_gprimeltezt" groups="device" remote="itexpert120" revision="lineage-17.1"/>
 
-
  <!-- Galaxy J5 (2015) -->
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/j53gxx" name="Galaxy-MSM8916/android_device_samsung_j53gxx" groups="device" remote="Galaxy-MSM8916"/>
