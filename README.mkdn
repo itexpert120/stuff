@@ -21,3 +21,11 @@ curl -o build.sh https://raw.githubusercontent.com/itexpert120/stuff/main/gprime
 ```
 ./build.sh
 ```
+
+
+J5 (2016) Lineage-17.1
+---------------
+use this command in source directory to sync up
+```
+curl -o .repo/local_manifests/roomservice.xml https://raw.githubusercontent.com/itexpert120/stuff/main/j5x.xml --create-dirs && repo sync -j16 --force-sync
+```
