@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Galaxy-MSM8916"
+           fetch="https://github.com"
+           revision="lineage-17.1" />
+
+  <remote  name="itexpert120"
+           fetch="https://github.com"
+           revision="lineage-17.1" />
+
+
+ <!-- Samsung MSM8916 Common Repos -->
+  <project path="device/samsung/msm8916-common" name="itexpert120/android_device_samsung_msm8916-common" groups="device" remote="itexpert120" revision="lineage-17.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" remote="github" revision="lineage-17.1"/>
+ 
+ <!-- Samsung Hardware Repo -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github"/>
+
+  <!-- Common Samsung MSM8916 Kernel -->
+  <project path="kernel/samsung/msm8916" name="itexpert120/android_kernel_samsung_msm8916" remote="itexpert120" revision="lineage-17.1"/>
+ 
+ <!-- Vendor Trees (for all devices) -->
+  <project path="vendor/samsung" name="itexpert120/proprietary_vendor_samsung" groups="device" remote="itexpert120" revision="lineage-17.1"/>
+
+ <!-- Qcom audio  -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8916/audio" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8916" remote="Galaxy-MSM8916"/>
+
+ <!-- Dependencies -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+  
+ <!-- arm-eabi-7.2 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
+
+ <!-- Galaxy J5 (2016) -->
+  <project path="device/samsung/j5x-common" name="itexpert120/android_device_samsung_j5x-common" groups="device" remote="itexpert120"/>
+  <project path="device/samsung/j5xnlte" name="itexpert120/android_device_samsung_j5xnlte" groups="device" remote="itexpert120"/>
+  <project path="device/samsung/j5xltecmcc" name="itexpert120/android_device_samsung_j5xltecmcc" groups="device" remote="itexpert120"/>
+
+</manifest>
