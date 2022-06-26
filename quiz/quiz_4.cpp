@@ -1,3 +1,7 @@
+/* Solution to Quiz 4
+ * written by Zeeshan Ahmad (itexpert120@gmail.com)
+ */
+
 #include <iostream>
 using namespace std;
 
